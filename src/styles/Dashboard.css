@@ -1,0 +1,73 @@
+.dashboard {
+  padding: 30px;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+}
+.dashboard h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  min-width: 200px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: 0.3s;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+
+.card-title {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+
+.card p {
+  font-size: 28px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+
+.card i {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #4f46e5;
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #4f46e5;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #4338ca;
+}
+.card svg {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #4f46e5;
+}
