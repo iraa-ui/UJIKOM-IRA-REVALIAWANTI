@@ -8,7 +8,7 @@ function TaskList() {
       <h1 className="mb-3"> Daftar Tugas</h1>
       <div className="d-flex justify-content-end mb-3">
         <Link to="/TaskForm" className="btn btn-primary" >
-        Tambah Tugas
+       + Tambah Tugas
       </Link>
       </div>
       <table className="table table-bordered table-hover">
@@ -16,18 +16,17 @@ function TaskList() {
           <tr>
             <th>No</th>
             <th>Nama Tugas</th>
-            <th>DiTugaskan Kepada</th>
+            <th>Di Tugaskan Kepada</th>
             <th>Status</th>
             <th>Aksi</th>
           </tr>
         </thead>
 
         <tbody>
-         
           <tr>
             <td>1</td>
             <td>Belajar React</td>
-            <td>Ira</td>
+            <td>zahra</td>
             <td>
               <span className="badge bg-success">Selesai</span>
             </td>
