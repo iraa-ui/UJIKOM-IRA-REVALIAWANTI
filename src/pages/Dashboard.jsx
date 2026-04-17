@@ -30,7 +30,7 @@ function Dashboard() {
       </div>
 
       <Link to="/tasks" className="btn">
-        Lihat Semua Task →
+        Lihat Semua Task 
       </Link>
     </div>
   );
